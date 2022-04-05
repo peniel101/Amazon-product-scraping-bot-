@@ -4,10 +4,10 @@ from selenium import webdriver
 import smtplib
 import os
 
-# getting the password , email and receiver from the environment variables
-#get_password = os.environ.get("Password")
-#get_email = os.environ.get("Email")
-#receiver_email = os.enivron.get("receiver_email")
+#getting the password , email and receiver from the environment variables
+get_password = os.environ.get("Password")
+get_email = os.environ.get("Email")
+receiver_email = os.enivron.get("receiver_email")
 
 url = 'https://www.amazon.com/PlayStation-DualSense-Wireless-Controller-Starlight-Blue/dp/B09NLJGTHL/ref=sr_1_3?keywords=ps5+controller&qid=1641382163&sr=8-3'
 driver = webdriver.Chrome()
